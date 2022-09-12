@@ -1,5 +1,5 @@
 :root {
-    --bgWebpage: #e0e3e5;
+    --bgWebpage: #e6e6e6;
     --bg-red: #E6563B;
     --bg-orange: #EB9D3A;
     --bg-green: #7CB06C;
@@ -13,6 +13,7 @@ h1 {
 h2 {
     font-family: 'Anton', sans-serif;
 }
+
 
 body {
     font-family: 'Abel', sans-serif;
@@ -72,4 +73,9 @@ body {
 .circle span {
     position: relative;
     top: -10px;
+}
+
+.works {
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
