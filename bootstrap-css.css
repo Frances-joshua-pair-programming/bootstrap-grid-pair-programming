@@ -1,3 +1,10 @@
+:root {
+    --bgWebpage: #e0e3e5;
+    --bg-red: #E6563B;
+    --bg-orange: #EB9D3A;
+    --bg-green: #7CB06C;
+    --bg-teal: #00ABA9;
+}
 h1 {
     font-family: 'Anton', sans-serif;
     font-size: 5em;
@@ -9,6 +16,11 @@ h2 {
 
 body {
     font-family: 'Abel', sans-serif;
+
+}
+
+.bg {
+    background-color: var(--bgWebpage)
 }
 
 .redcircle {
@@ -16,7 +28,10 @@ body {
     height: 150px;
     align-items: center;
     justify-content: center;
-    background-color: #E6563B;
+    background-color: var(--bg-red);
+    border-style: solid;
+    border-width: 10px;
+    font-family: 'Anton', sans-serif;
 
 }
 
@@ -25,8 +40,10 @@ body {
     height: 150px;
     align-items: center;
     justify-content: center;
-    background-color: #EB9D3A;
-
+    background-color: var(--bg-orange);
+    border-style: solid;
+    border-width: 10px;
+    font-family: 'Anton', sans-serif;
 }
 
 .greencircle {
@@ -34,7 +51,10 @@ body {
     height: 150px;
     align-items: center;
     justify-content: center;
-    background-color: #7CB06C;
+    background-color: var(--bg-green);
+    border-style: solid;
+    border-width: 10px;
+    font-family: 'Anton', sans-serif;
 
 }
 
@@ -43,7 +63,10 @@ body {
     height: 150px;
     align-items: center;
     justify-content: center;
-    background-color: #00ABA9;
+    background-color: var(--bg-teal);
+    border-style: solid;
+    border-width: 10px;
+    font-family: 'Anton', sans-serif;
 }
 
 .circle span {
