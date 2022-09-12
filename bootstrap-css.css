@@ -1,4 +1,9 @@
-h1, h2 {
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+}
+
+h2 {
     font-family: 'Anton', sans-serif;
 }
 
