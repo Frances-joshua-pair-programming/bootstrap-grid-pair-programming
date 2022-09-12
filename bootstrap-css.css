@@ -33,7 +33,6 @@ body {
     border-style: solid;
     border-width: 10px;
     font-family: 'Anton', sans-serif;
-
 }
 
 .orangecircle {
@@ -70,6 +69,46 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.smallredcircle {
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-red);
+    padding: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.smallorangecircle {
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-orange);
+    padding: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.smallgreencircle {
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-green);
+    padding: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.smalltealcircle {
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-teal);
+    padding: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
 .circle span {
     position: relative;
     top: -10px;
@@ -79,3 +118,9 @@ body {
     margin-top: 1em;
     margin-bottom: 2em;
 }
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
