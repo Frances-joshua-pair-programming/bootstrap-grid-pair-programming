@@ -11,3 +11,42 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+.redcircle {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6563B;
+
+}
+
+.orangecircle {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #EB9D3A;
+
+}
+
+.greencircle {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #7CB06C;
+
+}
+
+.tealcircle {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #00ABA9;
+}
+
+.circle span {
+    position: relative;
+    top: -10px;
+}
