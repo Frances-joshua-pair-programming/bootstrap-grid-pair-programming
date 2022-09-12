@@ -24,6 +24,11 @@ body {
     background-color: var(--bgWebpage)
 }
 
+hr {
+    margin: auto;
+    width: 80%;
+}
+
 .redcircle {
     width: 150px;
     height: 150px;
@@ -77,6 +82,7 @@ body {
     background-color: var(--bg-red);
     padding: 20px;
     font-family: 'Anton', sans-serif;
+    margin: 3px;
 }
 
 .smallorangecircle {
@@ -87,6 +93,7 @@ body {
     background-color: var(--bg-orange);
     padding: 20px;
     font-family: 'Anton', sans-serif;
+    margin: 3px;
 }
 
 .smallgreencircle {
@@ -97,6 +104,7 @@ body {
     background-color: var(--bg-green);
     padding: 20px;
     font-family: 'Anton', sans-serif;
+    margin: 3px;
 }
 
 .smalltealcircle {
@@ -107,6 +115,7 @@ body {
     background-color: var(--bg-teal);
     padding: 20px;
     font-family: 'Anton', sans-serif;
+    margin: 3px;
 }
 
 .circle span {
@@ -122,5 +131,11 @@ body {
 .icons{
     display: flex;
     justify-content: space-between;
+}
+
+.circlespacing {
+    display: flex;
+    justify-content: center;
+
 }
 
