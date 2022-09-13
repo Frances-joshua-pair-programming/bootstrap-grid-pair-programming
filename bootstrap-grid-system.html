@@ -90,34 +90,41 @@
     </div>
 
 <!--Here, we have the Featured Project footer below the pictures, with the four tiny circles-->
-    <div class="gap-3 container mt-5 border text-nowrap column-wrap">
-        <h3 class="text-center works"> Selected Work</h3>
+    <div class="container-fluid" >
+
         <div class="row">
-            <div class="col-lg-6 col-md-6 row-sm-3 border mb-4">
-                    <span>  <img src="/img/apple-ipad.png" class="figure-img img-fluid rounded" alt="Picture of iPad">
-                        <div class="icons">
-                            <div>FEATURED PROJECT</div>
-                            <div class="d-flex">
-                                <div class="d-flex rounded-circle text-black text-center smallredcircle">
-                                    <span>D</span>
+            <div class="col-xl-8 col-lg-7">
+                <div class="gap-3 container-fluid mt-5 border text-nowrap column-wrap">
+                    <div class="row">
+                        <h3 class="text-center works"> Selected Work</h3>
+                        <div class="col-xl-6 col-lg-6 col-md-6 row-sm-3 border mb-4">
+                            <span><img src="/img/apple-ipad.png" class="figure-img img-fluid rounded" alt="Picture of iPad"></span>
+
+                                <div class="icons">
+                                    <div class="fw-bold">FEATURED PROJECT</div>
+                                    <div class="d-flex">
+                                        <div class="d-flex rounded-circle text-black text-center smallredcircle">
+                                            <span>D</span>
+                                        </div>
+                                        <div class="d-flex rounded-circle text-black text-center smallorangecircle">
+                                            <span>D</span>
+                                        </div>
+                                        <div class="d-flex rounded-circle text-black text-center smallgreencircle">
+                                            <span>S</span>
+                                        </div>
+                                            <div class="d-flex rounded-circle text-black text-center smalltealcircle">
+                                                <span>H</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="d-flex rounded-circle text-black text-center smallorangecircle">
-                                    <span>D</span>
-                                </div>
-                                <div class="d-flex rounded-circle text-black text-center smallgreencircle">
-                                    <span>S</span>
-                                </div>
-                                    <div class="d-flex rounded-circle text-black text-center smalltealcircle">
-                                        <span>H</span>
-                                </div>
-                            </div>
                         </div>
-                    </span>
-            </div>
-            <div class="col-lg-6 col-md-6 row-sm-3 border mb-4">
+
+
+
+                        <div class="col-lg-6 col-md-6 row-sm-3 border mb-4">
                     <span>  <img src="/img/macbook.png" class="figure-img img-fluid rounded" alt="Picture of Mac">
                         <div class="icons">
-                            <div>FEATURED PROJECT</div>
+                            <div class="fw-bold">FEATURED PROJECT</div>
                             <div class="d-flex">
                                 <div class="d-flex rounded-circle text-black text-center smallredcircle">
                                     <span>D</span>
@@ -134,11 +141,11 @@
                             </div>
                         </div>
                     </span>
-            </div>
-            <div class="col-lg-6 col-md-6 row-sm-3 border mb-4 ">
+                        </div>
+                        <div class="col-lg-6 col-md-6 row-sm-3 border mb-4 ">
                    <span>  <img src="/img/man.png" class="figure-img img-fluid rounded" alt="Picture of Man">
                         <div class="icons">
-                            <div>FEATURED PROJECT</div>
+                            <div class="fw-bold">FEATURED PROJECT</div>
                             <div class="d-flex">
                                 <div class="d-flex rounded-circle text-black text-center smallredcircle">
                                     <span>D</span>
@@ -155,11 +162,11 @@
                             </div>
                         </div>
                     </span>
-            </div>
-            <div class="col-lg-6 col-md-6 row-sm-3 border mb-4">
+                        </div>
+                        <div class="col-lg-6 col-md-6 row-sm-3 border mb-4">
                     <span>  <img src="/img/security.png" class="figure-img img-fluid rounded" alt="Picture of Security">
                         <div class="icons">
-                            <div>FEATURED PROJECT</div>
+                            <div class="fw-bold">FEATURED PROJECT</div>
                             <div class="d-flex">
                                 <div class="d-flex rounded-circle text-black text-center smallredcircle">
                                     <span>D</span>
@@ -176,25 +183,53 @@
                             </div>
                         </div>
                     </span>
+                        </div>
+                    </div>
+                </div>
             </div>
-       </div>
+
+            <!--Here, we are focusing on "The Last" column, that only appears on large and x-large screens-->
+            <div class="col-lg-4 d-none d-sm-none d-lg-block d-xl-block thelast">
+                <div class="row mt-5 border text-wrap column-wrap">
+                    <h3 class="text-center works">
+                        The Last</h3>
+                    <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                        <div class="col largecol">
+
+
+                            <div class="d-flex mb-3" style="width: 200px;">
+                                <img src="img/mobile-phone.png" class="img-fluid float-start"
+                                     alt="A picture of a mobile phone">
+                                <div class="row text-wrap m-3">  THE ADMIN BAR AND
+                                    ABSOLUTE
+                                    POSITIONING</div>
+                            </div>
+
+                            <div class="d-flex mb-3" style="width: 200px;">
+                                <img src="img/head.png" class="img-fluid float-start"
+                                     alt="A picture of a mobile phone">
+                                <div class="row text-wrap m-3">  NIBBLER AWESOME WEBSITE TESTING </div>
+                            </div>
+
+
+                            <div class="d-flex mb-3" style="width: 200px;">
+                                <img src="img/ipad.png" class="img-fluid float-start"
+                                     alt="A picture of a mobile phone">
+                                <div class="row text-wrap m-3">  HOW TO GET GOOGLE TO LIKE YOU </div>
+                            </div>
+
+
+                            <div class="row lastlorem">LAST TWEET <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Animi, deserunt et id magni maxime necessitatibus nesciunt odio possimus quaerat, quisquam rem temporibus veritatis voluptas. Asperiores explicabo nam quis quisquam voluptatum!</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
-        <!--Everything below this section, will only show up on the large/extra-large screens-->
-<!--        <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block">-->
-<!--           <div class="col largecol">-->
-<!--               <div class="row"> THE ADMIN BAR AND ABSOLUTE POSITIONING</div>-->
-<!--               <div class="row">NIBBLER AWESOME WEBSITE TESTING</div>-->
-<!--               <div class="row">HOW TO GET GOOGLE TO LIKE YOU</div>-->
-<!--               <div class="row lastlorem">LAST TWEET <p>Lorem ipsum dolor sit amet, consectetur adipisicing-->
-<!--                   elit. Animi, deserunt et id magni maxime necessitatibus nesciunt odio possimus quaerat, quisquam rem temporibus veritatis voluptas. Asperiores explicabo nam quis quisquam voluptatum!</p></div>-->
-
-<!--           </div>-->
-
-
-
-<!--    </div>-->
 
 
 
