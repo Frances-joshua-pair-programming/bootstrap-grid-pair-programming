@@ -75,8 +75,8 @@ hr {
 }
 
 .smallredcircle {
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
     align-items: center;
     justify-content: center;
     background-color: var(--bg-red);
@@ -86,8 +86,8 @@ hr {
 }
 
 .smallorangecircle {
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
     align-items: center;
     justify-content: center;
     background-color: var(--bg-orange);
@@ -97,8 +97,8 @@ hr {
 }
 
 .smallgreencircle {
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
     align-items: center;
     justify-content: center;
     background-color: var(--bg-green);
@@ -108,8 +108,8 @@ hr {
 }
 
 .smalltealcircle {
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
     align-items: center;
     justify-content: center;
     background-color: var(--bg-teal);
@@ -136,7 +136,6 @@ hr {
 .circlespacing {
     display: flex;
     justify-content: center;
-
 }
 
 .largecol {
@@ -147,4 +146,11 @@ hr {
     font-family: 'Abel', sans-serif;
 }
 
+.figure-img {
+    width: 100%;
+}
 
+.poop {
+    width: 75px;
+    height: 75px;
+}
