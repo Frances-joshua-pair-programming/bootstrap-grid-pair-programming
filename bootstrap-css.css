@@ -29,6 +29,7 @@ hr {
     width: 80%;
 }
 
+
 .redcircle {
     width: 150px;
     height: 150px;
@@ -86,7 +87,7 @@ hr {
 }
 
 .tealcircle:hover {
-    background-color: #038583;
+    background-color: #036967;
 }
 
 .smallredcircle {
@@ -167,9 +168,9 @@ hr {
     width: 100%;
 }
 
-.poop {
-    width: 75px;
-    height: 75px;
+.smallpics {
+    width: 5em;
+    height: 5em;
 }
 
 .img-thumbnail {
